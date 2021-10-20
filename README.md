@@ -10,3 +10,8 @@ The function should search the input directory and all of its subdirectories for
 ## Tips
 Zip file should maintain folder structure relative to the top-level directory. 
 
+## How to Run?  Remember these three parameters| search_dir |  extension_list |  output_path
+
+for e.g. 
+
+zip_all(r'.\\my_stuff', ['.png'], 'my_stuff.zip')
